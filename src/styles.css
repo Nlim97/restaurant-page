@@ -32,3 +32,41 @@ body{
     margin: 0;
     padding-top: 17px;
 }
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+}
+.burger-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.description{
+    width: 500px;
+    padding-top: 40px;
+}
+.chicken-burger-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.burger-image{
+    width: 430px;
+    height: 350px;
+}
+p{
+    font-size: 30px;
+}
+.highlight{
+    color: goldenrod;
+}
+.order{
+    width: 120px;
+    height: 40px;
+    border-radius: 15px;
+    font-size: 15px;
+    background-color: #FFC20E;
+}
