@@ -1,5 +1,6 @@
 import { header } from "./header";
+import { hero } from "./hero";
 import "./styles.css"
 
-console.log("hello")
-header()
+header();
+hero();
