@@ -45,7 +45,7 @@ body{
     75% { transform: scale(1.2) rotate(2deg); }
     100% { transform: scale(1.2) rotate(0deg); }
 }
-.container{
+.hero-container{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -131,7 +131,7 @@ p{
     gap: 30px;
 }
 
-.item-cards{
+.menu-container{
     display: flex;
     width: cla(100% - 70px);
     align-items: center;
@@ -159,4 +159,19 @@ p{
 }
 .menu-card p{
     font-size: 20px;
+}
+
+.about-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+}
+.about-container img{
+    width: 400px;
+}
+.about-container p {
+    width: 30%;
 }
