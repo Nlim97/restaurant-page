@@ -20,7 +20,7 @@ export const hero = () => {
     burgerImage.src = burger
     chickenBurgerImage.src = chickenBurger
 
-    container.classList.add("container")
+    container.classList.add("hero-container")
     burgerContainer.classList.add("burger-container")
     chickenBurgerContainer.classList.add("chicken-burger-container")
     burgerDescription.classList.add("description")

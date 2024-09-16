@@ -2,7 +2,7 @@ import { itemImage } from "./menuItemImages"
 
 export const menu = () => {
     const menuDiv = document.createElement("div")
-    menuDiv.classList.add("item-cards")
+    menuDiv.classList.add("menu-container")
     const itemArray = itemImage()
     const description = "Lorem, ipsum dolor sit amet consectetur <span class=\"highlight\">adipisicingelit.</span> Cum consequuntur expedita, ratione aliquam, nulla voluptatem unde cumque quis, accusantium atque quo rerum sit quam"
 
