@@ -1,6 +1,6 @@
 import logoImage from "../assets/logo.jpg"
 
-export const header = () => {
+export const header = (heroElement, menuElement) => {
     const navBar = document.createElement("div")
     const links = document.createElement("div")
     const home = document.createElement("button")
@@ -8,6 +8,9 @@ export const header = () => {
     const about = document.createElement("button")
     const logo = document.createElement("img")
 
+
+    home.addEventListener("click", () => navigateToHome(heroElement, menuElement))
+    menu.addEventListener("click", () => navigateToMenu(heroElement, menuElement))
 
     navBar.classList.add("nav-bar")
     links.classList.add("links")
@@ -31,4 +34,12 @@ export const header = () => {
     navBar.appendChild(links)
     document.body.appendChild(navBar)
 
+}
+
+function navigateToMenu(heroElement, menuElement){
+    heroElement.replaceWith(menuElement)
+}
+
+function navigateToHome(heroElement, menuElement){
+    menuElement.replaceWith(heroElement)
 }

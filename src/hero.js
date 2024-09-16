@@ -55,5 +55,5 @@ export const hero = () => {
     container.appendChild(burgerContainer)
     container.appendChild(chickenBurgerContainer)
 
-    document.body.appendChild(container)
+    return container
 }
