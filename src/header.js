@@ -22,19 +22,19 @@ export const header = () => {
     logo.classList.add("logo")
 
     menuBtn.addEventListener("click", () => {
-        const currentContent = document.body.children[1]
+        const currentContent = document.body.children[2]
         const content = menu()
         currentContent.replaceWith(content)
     })
 
     home.addEventListener("click", () => {
-        const currentContent = document.body.children[1]
+        const currentContent = document.body.children[2]
         const content = hero()
         currentContent.replaceWith(content)
     })
 
     aboutBtn.addEventListener("click", () => {
-        const currentContent = document.body.children[1]
+        const currentContent = document.body.children[2]
         const content = about()
         currentContent.replaceWith(content)
     })
