@@ -130,3 +130,33 @@ p{
     justify-content: center;
     gap: 30px;
 }
+
+.item-cards{
+    display: flex;
+    width: cla(100% - 70px);
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 130px;
+    padding: 40px 70px;
+}
+.menu-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: #AAB8C2 solid 2px;
+    border-radius: 15px;
+    padding: 30px;
+    width: 35%;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.5);
+}
+.food-image{
+    width: 300px;
+    transition: transform 0.3s ease;
+}
+.food-image:hover{
+    transform: scale(1.2);
+}
+.menu-card p{
+    font-size: 20px;
+}
